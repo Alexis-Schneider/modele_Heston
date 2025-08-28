@@ -4,8 +4,8 @@ Ce projet implémente un réseau de neurones, "HestonNet", pour calibrer les cin
 
 L'objectif est de résoudre le problème inverse : étant donné une surface de volatilité observée sur le marché, trouver les paramètres du modèle de Heston (`v0`, `kappa`, `theta`, `gamma`, `rho`) qui la reproduisent le mieux.
 
-**Auteur : Alexis Schneider
-**LinkedIn : https://www.linkedin.com/in/alexis-schneider-a91079325/
+Auteur : Alexis Schneider
+LinkedIn : https://www.linkedin.com/in/alexis-schneider-a91079325/
 
 
 ---
