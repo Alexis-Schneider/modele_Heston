@@ -10,17 +10,15 @@ LinkedIn : https://www.linkedin.com/in/alexis-schneider-a91079325/
 
 ---
 
-## Aperçu des Résultats
-
-Le modèle entraîné est capable de calibrer une surface de volatilité en quelques millisecondes et de reproduire la structure complexe du "volatility smile" avec une bonne précision.
-
-| Surface d'Entrée (Marché) | Surface Re-pricée (HestonNet) |
-| :-----------------------: | :---------------------------: |
-| ![Surface d'Entrée](chemin/vers/votre/image_surface_entree.png) | ![Surface de Sortie](chemin/vers/votre/image_surface_sortie.png) |
+### Surface de Volatilité : Originale vs. HestonNet
+![Comparaison des Surfaces de Volatilité](images/surface_volatilite_Heston.png)
 
 L'erreur de repricing moyenne est de l'ordre de **~250 basis points**, avec des erreurs plus importantes concentrées sur les maturités courtes et les strikes extrêmes, ce qui est un comportement attendu pour le modèle de Heston.
 
-![Heatmap d'Erreur](chemin/vers/votre/image_heatmap.png)
+Voici une heatmap des erreurs :
+![Heatmap d'Erreur](images/heatmap.png)
+
+---
 
 ---
 
@@ -70,4 +68,4 @@ Le projet est contenu dans un unique Jupyter Notebook : `calibration_modele_Hest
     - Entraîner le HestonNet (Partie 7).
     - Évaluer les résultats de calibration.
 
-**Note :** La génération du dataset par Monte-Carlo peut être longue. Il est recommandé de commencer avec un petit nombre d'échantillons (ex: 500) pour tester le pipeline.
+
