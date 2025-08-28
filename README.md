@@ -11,7 +11,7 @@ LinkedIn : https://www.linkedin.com/in/alexis-schneider-a91079325/
 ---
 
 ### Surface de Volatilité : Originale vs. HestonNet
-![Comparaison des Surfaces de Volatilité](images/surface_volatilite_Heston.png)
+![Comparaison des Surfaces de Volatilité]surface_volatilité_Heston.png
 
 L'erreur de repricing moyenne est de l'ordre de **~250 basis points**, avec des erreurs plus importantes concentrées sur les maturités courtes et les strikes extrêmes, ce qui est un comportement attendu pour le modèle de Heston.
 
